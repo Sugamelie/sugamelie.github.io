@@ -5,10 +5,26 @@ body {
   height: 100%;
   background-color: #4D4545;
 }
+a:link{
+  font: 100% "Lato", sans-serif;
+  width:100%;
+  padding:1px; 
+  text-decoration:none; 
+  text-align:center; 
+  border-style:solid;
+  border-width:1px;
+  border-color:#cba6cc;
+  color:#4D4545;
+  background-color: #cba6cc;
+  border-radius:4px;}
+  a:hover {
+  border-color:#4D4545;
+  color:#cba6cc;
+  background-color: #4D4545;}
 
 .blue-bg {
   background-color: #4D4545;
-  color: #ED8D8D;
+  color: #f19dbc;
   height: 100%;
 }
 
@@ -16,7 +32,7 @@ body {
   font-weight: bold;
   padding: 15px 20px;
   border-radius: 50%;
-  background-color: #ED8D8D;
+  background-color: #f19dbc;
   color: #4D4545;
   max-height: 50px;
   z-index: 2;
@@ -34,7 +50,7 @@ body {
 .how-it-works.row .col-2::after {
   content: "";
   position: absolute;
-  border-left: 3px solid #ED8D8D;
+  border-left: 3px solid #f19dbc;
   z-index: 1;
 }
 .how-it-works.row .col-2.bottom::after {
@@ -57,7 +73,7 @@ body {
   height: 40px;
 }
 .timeline hr {
-  border-top: 3px solid #ED8D8D;
+  border-top: 3px solid #f19dbc;
   margin: 0;
   top: 17px;
   position: relative;
@@ -67,7 +83,7 @@ body {
   overflow: hidden;
 }
 .timeline .corner {
-  border: 3px solid #ED8D8D;
+  border: 3px solid #f19dbc;
   width: 100%;
   position: relative;
   border-radius: 15px;
