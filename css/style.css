@@ -5,7 +5,7 @@ body {
   height: 100%;
   background-color: #4D4545;
 }
-a:link{
+.bts-btn:link{
   font: 100% "Lato", sans-serif;
   width:100%;
   padding:1px; 
@@ -17,7 +17,7 @@ a:link{
   color:#4D4545;
   background-color: #cba6cc;
   border-radius:4px;}
-  a:hover {
+.bts-btn:hover {
   border-color:#4D4545;
   color:#cba6cc;
   background-color: #4D4545;}
